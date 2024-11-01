@@ -1,0 +1,65 @@
+.container00 {
+    &.container01{
+        background-image: url(../../images/RockStar/gtaVIBg.jpg);
+    }
+
+    &.container02{
+        background-image: url(../../images/RockStar/redDead1Bg.jpg);
+    }
+
+    &.container03{
+        background-image: url(../../images/RockStar/gtaVBg.jpg);
+    }
+
+    &.container04{
+        background-image: url(../../images/RockStar/gtaSABg.jpg);
+    }
+    
+    &.container05{
+        background-image: url(../../images/RockStar/RedDead2Bg.jpg);
+    }
+}
+
+.titlePadding {
+    padding-top: 250px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.shortTitle {
+    width: 550px;
+    margin-bottom: -25px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+.mediumTitle {
+    width: 650px;
+    margin-bottom: -25px;
+    text-shadow: -1px 0 gray, 0 1px gray,
+      1px 0 gray, 0 -1px gray
+}
+
+
+// Media Query
+
+@media(max-width: 750px) {
+    .titlePadding {
+        padding-top: 120px;
+    }
+
+    .shortTitle, .mediumTitle {
+        width: auto;
+        font-size: 50px;
+    }
+
+}
+
+@media(max-width:380px) {
+    .shortTitle, .mediumTitle {
+        width: auto;
+        font-size: 40px;
+    }
+
+}
+

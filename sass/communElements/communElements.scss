@@ -38,7 +38,8 @@
 #button {
     padding: $padding-button;
     text-shadow: -1px 0 gray, 0 1px gray,
-      1px 0 gray, 0 -1px gray
+      1px 0 gray, 0 -1px gray;
+    border: 2px solid white;
 }
 
 .footer {

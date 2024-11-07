@@ -1,0 +1,132 @@
+.container00 {
+    &.container06 {
+        background-image: url(../../images/RockStar/redDead1Bg.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+    &.container07 {
+        background-image: url(../../images/RedDeadRedemption/bg2.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+    &.carrosel01 {
+        background-image: url(../../images/RedDeadRedemption/bg3.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+    &.carrosel02 {
+        background-image: url(../../images/RedDeadRedemption/bg4.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+    &.carrosel03 {
+        background-image: url(../../images/RedDeadRedemption/bg5.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+.titleRedDead {
+    font-family: 'Rubik', sans-serif;
+    font-size: 90px;
+    font-weight: 514;
+}
+
+.titleContent {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+}
+
+.numbers{
+    background-color: black;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    .titleNumb{
+        font-size: 90px;
+    }
+
+    .subTitleNumb{
+        font-size: 20px;
+    }
+}
+
+.redDeadDesc{
+    font-size: 22px;
+    width: 640px;
+    line-height: 50px;
+}
+
+.containerRedDeadDesc{
+    display: grid;
+    height: 90vh;
+    align-items: center;
+    justify-content: left;
+}
+
+#overViewPosition{
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+}
+
+.downloadDesc {
+    background-color: black;
+    height: 85vh;
+    padding-top: 240px;
+}
+
+button {
+    border: 2px solid white;
+    margin-right: 10px;
+}
+
+@media (max-width: 768px){
+    .numbers{
+        .titleNumb{
+            font-size: 80px;
+        }
+    
+        .subTitleNumb{
+            font-size: 18px;
+        }
+    }
+
+    .containerRedDeadDesc {
+        width: auto;
+    }
+
+    #overViewPosition {
+        padding-top: 35%;
+    }
+}
+
+@media (max-width: 575px) {
+    .numbers{
+        height: 60vh;
+    }
+
+    #overViewPosition{
+        width: auto;
+        margin-left: auto;
+    }
+}
+
+@media (max-with: 375px) {
+    .titleRedDead {
+        font-size: 50px;
+    }
+
+    .redDeadDesc{
+        font-size: 18px;
+        line-height: auto;
+    }
+}
+
+
+
